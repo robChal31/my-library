@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Book Lib</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>My Book Library</h1>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <form class="form__add--book">
+          <div class="inp__cont">
+            <label for="">Judul</label>
+            <input type="text" id="title" placeholder="judul" />
+          </div>
+          <div class="inp__cont">
+            <label for="">Penulis</label>
+            <input type="text" placeholder="penulis" id="author" />
+          </div>
+          <div class="inp__cont">
+            <label for="">Tahun</label>
+            <input type="number" placeholder="tahun terbit" id="year" />
+          </div>
+          <div class="inp__checkbox">
+            <label for="">Sudah selesai dibaca</label>
+            <input type="checkbox" name="" id="readed" />
+          </div>
+          <button class="btn_add--book" type="submit">
+            Masukan Buku ke Rak
+          </button>
+        </form>
+      </section>
+      <section>
+        <form class="form__search--book">
+          <span class="search__header">Cari buku</span>
+          <div class="search__cont">
+            <input type="text" name="" id="search" placeholder="judul..." />
+            <button class="btn_search--book" type="submit">Cari</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="book__shelf">
+        <span class="text__book--shelf">Belum selesai dibaca</span>
+        <div id="notFinishReaded"></div>
+      </section>
+      <section class="book__shelf">
+        <span class="text__book--shelf">Selesai dibaca</span>
+        <div id="finishReaded"></div>
+      </section>
+    </main>
+    <footer>
+      <div class="">
+        <p>Project Submission for Dicoding Course</p>
+      </div>
+      <p>Made with love <span>❤</span> &copy; Robbany Chalif A. 2022</p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>

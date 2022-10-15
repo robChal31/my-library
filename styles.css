@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@300&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #394598;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 0px;
+}
+
+main {
+  width: 60%;
+  margin: 0px auto;
+}
+
+input {
+  outline: none;
+  border-radius: 3px;
+  padding: 3px 8px;
+  border: 1px solid #464d7e;
+}
+
+.form__add--book {
+  padding: 20px;
+  border: 1px solid #464d7e;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #464d7e;
+}
+
+.inp__cont {
+  margin: 15px 0px;
+}
+
+.inp__cont > input {
+  width: 100%;
+}
+
+label {
+  color: #4d5590;
+  font-size: 0.8em;
+  margin-right: 10px;
+}
+
+.inp__checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.btn_add--book {
+  width: 100%;
+  background-color: #394598;
+  color: #fff;
+  font-weight: 500;
+  padding: 7px 0px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.btn_edit--book {
+  width: 100%;
+  background-color: #3da256;
+  color: #fff;
+  font-weight: 500;
+  padding: 7px 0px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.form__search--book {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #464d7e;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 1px #464d7e;
+}
+
+.search__header {
+  font-weight: bold;
+  color: #394598;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.search__cont {
+  width: 100%;
+  padding: 3px 10px;
+  display: flex;
+}
+
+.search__cont > input {
+  flex-basis: 78%;
+  margin-right: 5px;
+}
+
+.search__cont > button {
+  flex-basis: 20%;
+  background-color: #394598;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: 500;
+}
+
+.book__shelf {
+  padding: 10px;
+  border: 1px solid #464d7e;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 1px #464d7e;
+}
+
+.text__book--shelf {
+  font-size: 0.8em;
+  color: #394598;
+  font-weight: bold;
+}
+
+.book {
+  padding: 10px;
+  border: 1px solid #464d7e;
+  margin: 5px 0px;
+}
+
+.book > p {
+  font-size: 0.7em;
+  margin: 3px 0px;
+}
+
+.book > p > span {
+  color: #394598;
+}
+
+.book > div > button {
+  padding: 5px;
+  font-size: 0.7em;
+  margin-right: 5px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1p #d3d3d3;
+}
+
+.doneReaded {
+  background-color: #269d22;
+}
+
+.editButton {
+  background-color: #394598;
+}
+
+.deleteButton {
+  background-color: #bf2323;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer > div {
+  width: 100%;
+  height: 150px;
+  border-top: 1px solid #464d7e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p {
+  text-align: center;
+  padding: 20px;
+  background-color: #4d5590;
+  color: white;
+}
+
+footer > p > span {
+  color: #f12c2c;
+}
